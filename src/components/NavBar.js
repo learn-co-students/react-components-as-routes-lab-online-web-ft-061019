@@ -3,11 +3,10 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <div>
+    <div className="navbar">
     <NavLink
       to="/"
       exact
-      className="navbar"
       activeStyle={{
         background: 'darkblue'
       }}
