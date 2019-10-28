@@ -6,7 +6,7 @@
 */
 
 import React from 'react';
-import { directors } from '/Users/dawn/react-components-as-routes-lab-online-web-ft-061019/src/components/Directors.js';
+import { directors } from '/Users/dawn/react-components-as-routes-lab-online-web-ft-061019/src/data.js';
 
 const Directors = () => {
   return (
