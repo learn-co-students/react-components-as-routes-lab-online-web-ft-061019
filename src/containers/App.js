@@ -1,3 +1,11 @@
+/*App
+5) contains a <NavBar /> component
+6) contains a <Route path="/">
+7) contains a <Route path="/actors">
+8) contains a <Route path="/directors">
+9) contains a <Route path="/movies">
+*/
+
 import React from 'react';
 import {
   BrowserRouter as Router,
@@ -13,7 +21,13 @@ import Movies from '../components/Movies';
 const App = (props) => {
   return (
     <Router>
-      {/*{code here}*/}
+      <div>
+        <NavBar/>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/actors" component={Actors} />
+        <Route exact path="/directors" component={Directors} />
+        <Route exact path="/movies" component={Movies} />
+      </div>
     </Router>
   );
 };
